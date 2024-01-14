@@ -5,7 +5,6 @@ import streamlit as st
 from PIL import Image
 
 
-
 model=load_model("model.h5")
 classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
